@@ -1194,8 +1194,14 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
+    {"bta-seed1.granitecoin.com", "bta-seed1.granitecoin.com"},
+    {"bta-seed2.granitecoin.com", "bta-seed2.granitecoin.com"},
+    {"bta-seed2.granitecoin.com", "bta-seed2.granitecoin.com"},
     {NULL, NULL}
 };
+    
+// below are the old seed ip addresses - preserved for archival purposes ...
+// no seeds in the network were set - <blank> ... #crysx
 
 static const char *strTestNetDNSSeed[][2] = {
     {NULL, NULL}
